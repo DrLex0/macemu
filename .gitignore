@@ -30,6 +30,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+project.xcworkspace
 
 #
 # JetBrains IDE settings
