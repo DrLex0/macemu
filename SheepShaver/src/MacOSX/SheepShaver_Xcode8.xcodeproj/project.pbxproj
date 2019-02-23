@@ -79,11 +79,13 @@
 		087B91C01B780FFC00825F7F /* vm_alloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 087B91BC1B780FFC00825F7F /* vm_alloc.cpp */; };
 		08CD42DC14B7B85B009CA2A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CD42DB14B7B85B009CA2A2 /* Cocoa.framework */; };
 		08CD42E814B7B8AA009CA2A2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CD42E714B7B8AA009CA2A2 /* Carbon.framework */; };
+		3D15A8B9220F61FE005F07AA /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E420910020D0C4FA0094654F /* SDL2.framework */; };
+		3D15A8BA220F620B005F07AA /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E420910020D0C4FA0094654F /* SDL2.framework */; };
+		3D15A8BC220F6444005F07AA /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D15A8BB220F6444005F07AA /* SDL2.framework */; };
+		3D15A8BD220F6444005F07AA /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D15A8BB220F6444005F07AA /* SDL2.framework */; };
 		A7B1921418C35D4700791D8D /* DiskType.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1921318C35D4700791D8D /* DiskType.m */; };
 		E413A40320CF7E6D00FBE967 /* video_sdl2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E413A40220CF7E6D00FBE967 /* video_sdl2.cpp */; };
-		E4150D1220D557820077C51A /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4150D1120D557820077C51A /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E41936C420CFE64D003A7654 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = E41936C320CFE64D003A7654 /* SDLMain.m */; };
-		E420910120D0C4FA0094654F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E420910020D0C4FA0094654F /* SDL2.framework */; };
 		E444DC1520C8F06700DD29C9 /* pict.c in Sources */ = {isa = PBXBuildFile; fileRef = E444DC1420C8F06700DD29C9 /* pict.c */; };
 		E44C460520D262B0000583AE /* tftp.c in Sources */ = {isa = PBXBuildFile; fileRef = E44C45DC20D262AD000583AE /* tftp.c */; };
 		E44C460620D262B0000583AE /* mbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = E44C45DD20D262AD000583AE /* mbuf.c */; };
@@ -128,7 +130,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E4150D1220D557820077C51A /* SDL2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,13 +322,13 @@
 		087B91BD1B780FFC00825F7F /* vm_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vm_alloc.h; path = ../CrossPlatform/vm_alloc.h; sourceTree = SOURCE_ROOT; };
 		08CD42DB14B7B85B009CA2A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		08CD42E714B7B8AA009CA2A2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3D15A8BB220F6444005F07AA /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		A7B1921218C35D4700791D8D /* DiskType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskType.h; sourceTree = "<group>"; };
 		A7B1921318C35D4700791D8D /* DiskType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiskType.m; sourceTree = "<group>"; };
 		E413A40220CF7E6D00FBE967 /* video_sdl2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = video_sdl2.cpp; path = ../../../BasiliskII/src/SDL/video_sdl2.cpp; sourceTree = "<group>"; };
-		E4150D1120D557820077C51A /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		E41936C220CFE64D003A7654 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = ../../../BasiliskII/src/SDL/SDLMain.h; sourceTree = "<group>"; };
 		E41936C320CFE64D003A7654 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = ../../../BasiliskII/src/SDL/SDLMain.m; sourceTree = "<group>"; };
-		E420910020D0C4FA0094654F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		E420910020D0C4FA0094654F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = /Library/Frameworks/SDL2.framework; sourceTree = "<absolute>"; };
 		E4302EE21FBFE7FA00A5B500 /* lowmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lowmem.c; path = Darwin/lowmem.c; sourceTree = "<group>"; };
 		E444DC1420C8F06700DD29C9 /* pict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pict.c; path = ../pict.c; sourceTree = "<group>"; };
 		E44C45DC20D262AD000583AE /* tftp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tftp.c; path = ../../../BasiliskII/src/slirp/tftp.c; sourceTree = "<group>"; };
@@ -382,6 +383,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D15A8BA220F620B005F07AA /* SDL2.framework in Frameworks */,
+				3D15A8BD220F6444005F07AA /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +392,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E420910120D0C4FA0094654F /* SDL2.framework in Frameworks */,
+				3D15A8BC220F6444005F07AA /* SDL2.framework in Frameworks */,
+				3D15A8B9220F61FE005F07AA /* SDL2.framework in Frameworks */,
 				0856D21514A9A6C6000B1711 /* IOKit.framework in Frameworks */,
 				08CD42DC14B7B85B009CA2A2 /* Cocoa.framework in Frameworks */,
 				08CD42E814B7B8AA009CA2A2 /* Carbon.framework in Frameworks */,
@@ -424,7 +428,7 @@
 		0856CCAC14A99DE0000B1711 = {
 			isa = PBXGroup;
 			children = (
-				E4150D1120D557820077C51A /* SDL2.framework */,
+				3D15A8BB220F6444005F07AA /* SDL2.framework */,
 				0856CCC814A99E30000B1711 /* Sources */,
 				08CD42DF14B7B865009CA2A2 /* Frameworks */,
 				0856CCC214A99E1C000B1711 /* Products */,
@@ -980,7 +984,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "sed -i '' 's/@PACKAGE_VERSION@/2.5/g' \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"";
+			shellScript = "sed -i '' 's/@PACKAGE_VERSION@/2.5/g' \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1114,6 +1118,10 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1126,7 +1134,7 @@
 					_REENTRANT,
 				);
 				HEADER_SEARCH_PATHS = (
-					/Library/Frameworks/SDL.framework/Versions/A/Headers/,
+					/Library/Frameworks/SDL2.framework/Versions/A/Headers/,
 					./config/,
 					../Unix,
 					../MacOSX/Launcher,
@@ -1151,6 +1159,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -1163,7 +1175,7 @@
 					_REENTRANT,
 				);
 				HEADER_SEARCH_PATHS = (
-					/Library/Frameworks/SDL.framework/Versions/A/Headers/,
+					/Library/Frameworks/SDL2.framework/Versions/A/Headers/,
 					./config/,
 					../Unix,
 					../MacOSX/Launcher,
@@ -1211,7 +1223,10 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_CW_ASM_SYNTAX = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -1271,7 +1286,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
-				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_CW_ASM_SYNTAX = NO;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
